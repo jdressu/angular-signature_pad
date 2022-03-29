@@ -1,0 +1,19 @@
+<div class="column full-height center">
+    <div class="lines full-width center">
+        <div class="signature-pad">
+            <canvas #signaturePad width="900" height="600" style="touch-action: none;"></canvas>
+        </div>
+    </div>
+    <div class="lines full-width center padding-top">
+        <div class="column padding-right">
+            <button mat-raised-button color="warn" (click)="clear()">Clear</button>
+            <button mat-raised-button color="accent" class="margin-top" (click)="undo()">Undo</button>
+            <button mat-raised-button color="primary" class="margin-top" (click)="changeColor()">Change Color</button>
+        </div>
+        <div class="column">
+            <button mat-raised-button (click)="savePNG()">PNG</button>
+            <button mat-raised-button class="margin-top" (click)="saveJPG()">JPG</button>
+            <button mat-raised-button class="margin-top" (click)="saveSVG()">SVG</button>
+        </div>
+    </div>
+</div>

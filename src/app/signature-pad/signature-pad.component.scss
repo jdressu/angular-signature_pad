@@ -1,0 +1,52 @@
+.signature-pad {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 10px;
+    height: 100%;
+    max-width: 900px;
+    max-height: 460px;
+    border: 1px solid #e8e8e8;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.27), 0 0 40px rgba(255, 255, 255, 0.08) inset;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.lines {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.padding-top {
+    padding-top: 10px;
+}
+
+.padding-right {
+    padding-right: 10px;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
